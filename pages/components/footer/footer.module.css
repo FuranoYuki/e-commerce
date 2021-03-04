@@ -1,0 +1,26 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #d01110;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer_social > svg{
+    font-size: 32px;
+    margin: 0 10px;
+}
+
+.footer_social > svg:hover{
+    color: #ebe8e0;
+    cursor: pointer;
+}
+
+.createdBy{
+    margin-top: 10px;
+}

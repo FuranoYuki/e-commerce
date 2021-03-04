@@ -1,0 +1,69 @@
+.carousel{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 0 20px;
+    margin: 10px auto;
+    overflow-x: hidden;
+}
+
+.carousel_img{
+   width: 100%;
+   object-fit: fill;
+   position: relative;
+   margin-left: 0;
+}
+
+.img_lidear{
+    transition: .5s;
+}
+
+.carousel_controller{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 100%;
+    height: auto;
+    z-index: 500;
+}
+
+
+.carousel_button{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgba(223, 222, 222, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(230, 0, 20);
+}
+
+.carousel_button:hover{
+    cursor: pointer;
+    background-color: rgb(204, 204, 204);
+}
+
+.carousel_mark{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: -20px;
+}
+
+.mark_field{
+    padding: 3.5px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 5px;
+}
+
+@media (max-width: 740px){
+    .carousel, .carousel_mark{
+        display: none;
+    }
+}

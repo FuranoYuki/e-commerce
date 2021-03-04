@@ -1,0 +1,22 @@
+.plusAds{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.plusAds_img{
+    width: 25%;
+    padding: 2px;
+}
+
+@media (max-width: 740px){
+    .plusAds{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .plusAds_img{
+        width: 50%;
+    } 
+}

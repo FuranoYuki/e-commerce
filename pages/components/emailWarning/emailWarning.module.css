@@ -1,0 +1,58 @@
+.emailWarning{
+    background-color: #d01110;
+    padding: 20px 120px;
+}
+
+.emailWarning > * {
+    margin: 15px 0;
+}
+
+.emailWarning_header{
+    color: white;
+    font-size: 16px;
+}
+
+.emailWarning_field{
+    display: flex;
+}
+
+.field_input{
+    display: flex;
+    flex-grow: 1;
+    border: none;
+    padding: 15px;
+    border-radius: 0;
+}
+
+.field_input:focus{
+    outline: none;
+}
+
+.field_button{
+    margin-left: 10px;
+    color: rgb(230, 0, 20);
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid rgb(230, 0, 20);
+}
+
+.field_button:hover{
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+}
+
+.field_privacy{
+    font-size: 14px;
+    color: white;
+    text-decoration: underline;
+}
+
+.field_privacy:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 740px){
+    .emailWarning{
+        padding: 20px;
+    }
+}

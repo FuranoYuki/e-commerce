@@ -1,0 +1,58 @@
+.prodSpec{
+    display: flex;
+    flex-direction: column;
+}
+
+.prodSpec_header{
+    font-size: 24px;
+    color: rgb(102, 102, 102);
+    font-weight: 600;
+    background: #f1f1f1;
+    padding: 15px;
+}
+
+.productInformation_header{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+    margin: 20px;
+}
+
+.productTable{
+    background-color: white;
+    margin: 20px 0;
+}
+
+.prodSpec_table{
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.table_tr:nth-child(odd){
+    background-color: #f1f1f1;
+}
+
+.table_tr > td {
+    padding: 10px;
+    color: rgb(102, 102, 102);
+    height: auto;
+}
+
+.tr_field{
+    width: 200px;
+}
+
+.tr_value{
+    display: flex;
+    flex-grow: 1;
+}
+
+.productInformation{
+    width: 100%;
+}
+
+.productInfo_img{
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+}

@@ -1,0 +1,264 @@
+.nav{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #d01110;
+    color: white;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.nav_top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav_responsive{
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_responsive > svg{
+    display: none;
+}
+
+.nav_responsive > svg:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.nav_responsive > * {
+    margin: 0 10px;
+    display: flex;
+}
+
+.brand{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    justify-content: right;
+    width: 100%;
+}
+
+.li{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.li:hover{
+    cursor: pointer;
+    color: white;
+    background-color: darkred;
+}
+
+.shopping_cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    padding: 10px;
+    position: relative;
+}
+
+.cart_number{
+    position: relative;
+    top: -5px;
+    right: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+    background-color: darkred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartModal{
+    font-size: 18px;
+    position: absolute;
+    bottom: -120px;
+    padding: 45px;
+    width: 350px;
+    right: 10px;
+    background-color: white;
+    color: #666;
+    z-index: 500;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.amount{
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    font-size: 12px;
+    height: 19px;
+    width: 19px;
+    background-color: #d01110;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping_cart:hover, .user:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.user{
+    margin: 0 10px;
+    display: flex;
+    max-width: 170px;
+    justify-content: center;
+    position: relative;
+    padding: 10px 10px;
+    transition: .5s;
+}
+
+.user:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: darkred;
+}
+
+.user_icon{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_text{
+    font-size: 12px;
+    color: white;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.user_info{
+    display: none;
+    flex-direction: column;
+    width: 270px;
+    position: absolute;
+    padding: 15px;
+    bottom: -200px;
+    right: 0;
+    background-color: white;
+    z-index: 500;
+}
+
+.user_info > *{
+    margin: 10px 0;
+}
+
+.info_header{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+
+.info_enter{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #d01110;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.info_enter:hover{
+    background-color: #d01010cc;
+}
+
+.info_register{
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.info_register:hover{
+    color: #d01110;
+}
+
+.nav_ul_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}
+
+.div_search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    flex-grow: 1;
+    height: 50px;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+.search_input{
+    border: none;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    flex-grow: 1;
+}
+
+.search_input:focus{
+    outline: none;
+}
+
+.div_search > svg{
+    color: red;
+    font-size: 24px;
+}
+
+.heart{
+    font-size: 26px;
+    margin: 0 10px;
+}
+
+@media(max-width: 740px){
+    .li{
+        display: none;
+    }
+
+    .list{
+        margin: 0 0;
+    }
+
+    .nav_responsive > svg {
+        display: flex;
+    }
+
+    .user_icon{
+        font-size: 28px;
+    }
+
+    .user_text{
+        display: none;
+    }
+}

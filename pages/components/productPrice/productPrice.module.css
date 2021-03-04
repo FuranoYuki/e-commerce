@@ -1,0 +1,91 @@
+.productPrice{
+    background-color: white;
+    width: 35%;
+    margin-left: 10px;
+    padding: 20px;
+    max-height: 500px;
+}
+
+.productPrice_price{
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(102, 102, 102);
+}
+
+.productPrice_alternative{
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: underline;
+    margin: 5px 0;
+}
+
+.productPrice_freight{
+    border-top: .5px solid rgb(185, 185, 185);
+    border-bottom: .5px solid rgb(185, 185, 185);
+    padding: 40px 0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.freight_header{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+    margin: 5px 0;
+}
+
+.freight_calculate{
+    display: flex;
+    margin: 5px 0;
+}
+
+.calculate_input{
+    padding: 15px 0;
+}
+
+.calculate_button{
+    margin-left: 5px;
+    background-color: #0a0a00;
+    color: white;
+    padding: 0 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.calculate_button:hover{
+    cursor: pointer;
+}
+
+.productPrice_buy{
+    display: flex;
+    justify-content: center;
+    background-color: #0a0a00;
+    border-radius: 5px;
+    padding: 20px 0;
+    color: white;
+    align-items: center;
+}
+
+.productPrice_buy:hover{
+    cursor: pointer;
+    background-color: #0a0a00da;
+}
+
+.productPrice_buy > svg{
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.buy_text{
+    font-size: 22px;
+}
+
+@media (max-width: 768px){
+    .productPrice{
+        width: 100%;
+        margin: 10px 0;
+        max-height: none;
+
+    }
+}

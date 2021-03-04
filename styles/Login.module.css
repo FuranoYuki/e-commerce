@@ -1,0 +1,112 @@
+.login{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d01110;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.login_form > * {
+    margin: 10px 0;
+}
+
+.header{
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+
+.form_input{
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #a8bbb0;
+}
+
+.form_input:focus{
+    outline: none;
+}
+
+.form_input:-webkit-autofill{
+    background-color: red;
+}
+
+.form_button{
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #131304;
+    font-weight: 600;
+    color: white;
+    border-radius: 3px;
+}
+
+.form_button:hover{
+    cursor: pointer;
+    background-color: #0a0a00;
+}
+
+.form_options{
+    text-align: center;
+    color: #e5ddc8;
+}
+
+.options_have{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.options_have:hover{
+    color: white;
+}
+
+.options_seperator{
+    margin-top: 20px;
+}
+
+.alternative{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alternative_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5px 20px;
+    width: 100%;
+    margin: 5px 0;
+    border: 2px solid transparent;
+}
+
+.alternative_icon:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.alternative_icon > svg{
+    font-size: 40px;
+    color: white;
+}
+
+.github_icon{
+    background-color: #0a0a00;
+}
+
+.alternative_title{
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+}
