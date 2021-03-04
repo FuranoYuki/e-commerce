@@ -26,7 +26,7 @@ const Login = () => {
             placeholder="password"
             className={styles.form_input}
           />
-          <button className={styles.form_button} type="button" onClick={logIn}>
+          <button className={styles.form_button} type="button">
             Enter
           </button>
           {/* <div className={styles.form_options}>
