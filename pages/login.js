@@ -2,15 +2,8 @@ import React from "react";
 // import Link from "next/link";
 import Head from "next/head";
 import styles from "../styles/Login.module.css";
-import api from "./auth/api";
 
 const Login = () => {
-  async function logIn() {
-    api.post("/test").then((res) => {
-      console.log(res.data);
-    });
-  }
-
   return (
     <>
       <Head>
